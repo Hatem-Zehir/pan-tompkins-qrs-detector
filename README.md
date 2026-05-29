@@ -109,7 +109,7 @@ Copyright (c) 2026 Dr. Hatem Zehir
 
 ---
 
-## 📬 Citation
+## Citation
 
 If you use this implementation in your research, please cite:
 
