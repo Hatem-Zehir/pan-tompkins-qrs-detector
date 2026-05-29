@@ -109,8 +109,32 @@ Copyright (c) 2026 Dr. Hatem Zehir
 
 ---
 
+## 📬 Citation
+
+If you use this implementation in your research, please cite:
+
+```bibtex
+@article{PanTompkins1985,
+  author = {Pan, J. and Tompkins, W. J.},
+  title = {A Real-Time QRS Detection Algorithm},
+  journal = {IEEE Transactions on Biomedical Engineering},
+  year = {1985},
+  volume = {BME-32},
+  number = {3},
+  pages = {230--236},
+  doi = {10.1109/TBME.1985.325532}
+}
+
+@software{ZehirPythonPort2026,
+  author = {Zehir, Hatem},
+  title = {Pan-Tompkins QRS Detector — Python},
+  year = {2026},
+  url = {https://github.com/Hatem-Zehir/pan-tompkins-qrs-detector}
+}
+```
+
 ## 🤝 Contributing
 
-Contributions, bug reports, and feature requests are welcome!
+Contributions, bug reports, and feature requests are welcome.
 
 Please open an issue or submit a pull request.
