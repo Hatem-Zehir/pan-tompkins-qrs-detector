@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pantompkin"
+version = "1.0.0"
+description = "Python implementation of the Pan-Tompkins real-time QRS detection algorithm for ECG signals"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Hatem Zehir", email = "hatem.zehir@univ-annaba.dz" }
+]
+keywords = ["ECG", "QRS", "biomedical", "signal processing", "cardiology", "Pan-Tompkins"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "matplotlib>=3.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+docs = [
+    "sphinx>=7.0",
+    "sphinx-rtd-theme>=1.3",
+    "numpydoc>=1.6",
+]
+
+[project.urls]
+Homepage = "https://github.com/Hatem-Zehir/pan-tompkins-qrs-detector"
+Repository = "https://github.com/Hatem-Zehir/pan-tompkins-qrs-detector"
+"Bug Tracker" = "https://github.com/Hatem-Zehir/pan-tompkins-qrs-detector/issues"
+Documentation = "https://github.com/Hatem-Zehir/pan-tompkins-qrs-detector/blob/main/docs/quickstart.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pantompkin"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--tb=short"
