@@ -27,7 +27,7 @@ The Pan-Tompkins algorithm is a classic, widely used method for detecting QRS co
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+pip install pantompkins
 ```
 
 **Dependencies:**
