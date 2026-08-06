@@ -2,9 +2,7 @@
 
 ## Our Pledge
 
-We as contributors and maintainers pledge to make participation in this project
-a respectful, professional, and welcoming experience for everyone. We are committed
-to maintaining an environment built on integrity, honesty, and mutual respect.
+We as contributors and maintainers pledge to make participation in this project respectful, professional, and welcoming to all who engage in good faith and abide by this Code of Conduct. We are committed to maintaining an environment built on integrity, honesty, mutual respect, and constructive collaboration.
 
 ## Our Standards
 
